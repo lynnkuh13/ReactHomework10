@@ -1,0 +1,64 @@
+.fetch {
+    border: solid 1px blue;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px blue;
+    
+
+}
+.resultsContainer {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px blue;
+    height: 300px;
+
+}
+
+.todos {
+
+    flex-grow: 1;
+    border: solid 1px blue;
+    flex-direction: column;
+}
+
+.posts {
+
+    flex-grow: 1;
+    border: solid 1px blue;
+    flex-direction: column;
+}
+
+th {
+    width: 100px;
+    border: solid 1px blue;
+    color: blue;
+}
+
+tr {
+   
+    border: solid 1px blue;
+    color: blue;
+}
+
+td {
+
+    border: solid 1px blue;
+    color: blue;
+}
+
+button {
+    padding: 5px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 5px;
+
+}
