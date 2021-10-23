@@ -42,7 +42,6 @@ class FetchandAxios extends Component {
                     <td>{response.userId}</td>
                     <td>{response.id}</td>
                     <td>{response.title}</td>
-                    <td>{response.completed}</td>
                 </tr>
                 )
             )
@@ -55,6 +54,7 @@ class FetchandAxios extends Component {
                         <td>{response.userId}</td>
                         <td>{response.id}</td>
                         <td>{response.title}</td>
+                        <td>{response.completed}</td>
                     </tr>
                     )
                 )
